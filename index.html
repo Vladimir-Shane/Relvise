@@ -1,16 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Relvise</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-
+      <header class="header">
+        <div class="header__container _container">
+          <a class="header__logo" href="#">Relvise</a>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="" class="menu__link">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Product</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Pricing</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="page">
+        <div class="page__hero hero">
+          <div class="hero__container _container">
+            <div class="hero__body">
+              <h1 class="hero__title">Finance and Consultancy Solution</h1>
+              <p class="hero__text">
+                We know how large objects will act, but things on a small scale.
+              </p>
+              <div class="hero__buttons">
+                <a href="" class="hero__button hero__button--colored"
+                  >Get Quote Now</a
+                >
+                <a href="" class="hero__button hero__button--border">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="hero__cover _ibg">
+            <img src="./images/cover.jpg" alt="two colleagues" />
+          </div>
+        </div>
+        <section class="page__services services">
+          <div class="services__container _container">
+            <div class="services__body">
+              <div class="services__column">
+                <div class="services__cell services-item">
+                  <div class="services-item__icon">
+                    <svg>
+                      <use href="./images/sprite.svg#icon-suitcase"></use>
+                    </svg>
+                  </div>
+                  <h3 class="services-item__title">Environmental Consulting</h3>
+                  <p class="services-item__text">
+                    We focus on ergonomics and meeting you where you work.
+                  </p>
+                </div>
+              </div>
+              <div class="services__column">
+                <div class="services__cell services-item">
+                  <div class="services-item__icon">
+                    <svg>
+                      <use href="./images/sprite.svg#icon-house"></use>
+                    </svg>
+                  </div>
+                  <h3 class="services-item__title">Finance and consultancy</h3>
+                  <p class="services-item__text">
+                    Just type what's on your mind and we'll get you there. Just
+                    type what's on your mind and we'll get you there. Just type
+                    what's on your mind and we'll get you there.
+                  </p>
+                </div>
+              </div>
+              <div class="services__column">
+                <div class="services__cell services-item">
+                  <div class="services-item__icon">
+                    <svg>
+                      <use href="./images/sprite.svg#icon-window"></use>
+                    </svg>
+                  </div>
+                  <h3 class="services-item__title">
+                    Financial Services Consulting
+                  </h3>
+                  <p class="services-item__text">
+                    the quick fox jumps over the lazy dog
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p>I am a basement</p>
+      </footer>
     </div>
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
